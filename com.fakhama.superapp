@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOCIALAPP PUBG</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a; color:#fff; font-family:system-ui; min-height:100vh}
+.top{height:36px; background:#111; display:flex; justify-content:space-between; align-items:center; padding:0 12px; font-size:12px; border-bottom:1px solid #222}
+.top .uc{background:#ffcc00; color:#000; padding:4px 10px; border-radius:6px; font-weight:bold}
+.header{background:#000; padding:12px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #222}
+.logo{display:flex; align-items:center; gap:10px; font-weight:900; font-size:20px}
+.logo span{color:#ffcc00}
+.logo-icon{width:36px; height:36px; background:#ffcc00; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#000}
+.squad{background:#0a0a0a; padding:14px; border-bottom:1px solid #222}
+.avatar{width:72px; height:72px; border-radius:18px; display:flex; align-items:center; justify-content:center; font-size:24px; font-weight:bold; position:relative; border:3px solid #ff9900}
+.main-card{background:linear-gradient(180deg,#4a7a2a,#2d4a1a); min-height:420px; position:relative; padding:16px}
+.main-card::after{content:'ERANGEL'; position:absolute; bottom:20px; left:10px; right:10px; font-size:78px; font-weight:900; color:rgba(0,0,0,0.15); text-align:center}
+.bottom{position:fixed; bottom:0; left:0; right:0; background:#000; border-top:1px solid #222; display:flex; justify-content:space-around; padding:8px 0 12px}
+.post-btn{width:64px; height:64px; background:#ffcc00; border-radius:20px; display:flex; align-items:center; justify-content:center; font-size:32px; color:#000; margin-top:-20px}
+</style>
+</head>
+<body>
+<div class="top"><div>🛡️ RP 57 🏆 ACE 12★</div><div style="display:flex; gap:8px"><div class="uc">UC 2,340</div><span>4G</span></div></div>
+<div class="header"><div class="logo"><div class="logo-icon">◎</div><div>SOCIALAPP <span>PUBG</span></div></div><div><button style="border:1px solid #333; background:#111; color:#fff; padding:6px 14px; border-radius:8px">العربية</button></div></div>
+<div class="squad">
+<div style="display:flex; justify-content:space-between; font-size:11px; color:#888; margin-bottom:12px"><span>SQUAD • ONLINE</span><span>4/4</span></div>
+<div style="display:flex; gap:14px">
+<div style="text-align:center"><div class="avatar" style="background:linear-gradient(135deg,#ff9900,#ffcc00)">G</div><div style="font-size:11px; margin-top:4px">GHOST•OP</div></div>
+<div style="text-align:center"><div class="avatar" style="background:#2a2a2a">S</div><div style="font-size:11px; margin-top:4px">SNIPER_KSA</div></div>
+<div style="text-align:center"><div class="avatar" style="background:linear-gradient(135deg,#a855f7,#ec4899)">N</div><div style="font-size:11px; margin-top:4px">NOVA•Sara</div></div>
+<div style="text-align:center"><div class="avatar" style="background:#111; border-style:dashed">+</div><div style="font-size:11px; margin-top:4px">YOU</div></div>
+</div>
+</div>
+<div style="background:#0f0f0f; padding:12px; display:flex; gap:10px"><div style="width:40px; height:40px; background:#1a3a1a; border-radius:10px; display:flex; align-items:center; justify-content:center">G</div><div><div style="font-weight:bold">GHOST•OP 12m ago</div><div style="font-size:11px; color:#888">📍 Erangel • Pochinki ERANGEL</div></div></div>
+<div class="main-card"><div style="background:rgba(0,0,0,0.6); padding:8px 12px; border-radius:12px; position:absolute; top:16px; left:16px">🔥 12 KILLS 1847 DMG</div><div style="background:rgba(0,0,0,0.6); padding:8px 12px; border-radius:10px; position:absolute; top:16px; right:16px">ALIVE 1 • 96</div></div>
+<div class="bottom"><div>🏠 HOME</div><div>🔍 CLAN</div><div><div class="post-btn">+</div>POST</div><div>♡ LOOT</div><div>👤 PROFILE</div></div>
+</body>
+</html>
